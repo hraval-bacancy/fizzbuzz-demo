@@ -25,7 +25,11 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-import FizzBuzz from "./components/FizzBuzz.vue"
+import FizzBuzz from "./components/FizzBuzz.vue";
+import { BootstrapVue } from "bootstrap-vue";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+Vue.use(BootstrapVue);
 const app = new Vue({
   el: '#app',
   components: {

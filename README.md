@@ -2,7 +2,7 @@
 
 Vue + Laravel + Axios example app
 
-<img src="demo.gif" width="416">
+<img src="demo.png" width="416">
 
 ### Installation
 
